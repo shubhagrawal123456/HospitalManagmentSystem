@@ -2,8 +2,6 @@
 Hospital Management System using MySQL, Php and Bootstrap
 
 
-Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watch?v=W2XGSM5i9P8)
-
 Live Demo : [Hospital Management System - 000webhost by Kishan](https://kishan0725.000webhostapp.com)
 
 ## Need to work on:
@@ -111,8 +109,12 @@ This is how the patient module works. On the whole, this module allows patients 
 ### Doctor Module:
 
   &nbsp; &nbsp; &nbsp; The doctors can login into their account which can be done by toggling the tab from ‘Patient’ to ‘Doctor’. Fig 1.10 shows the login form for a doctor. Registration of a doctor account can be done only by admin. We will discuss more about this in Admin Module.
+  Use the Following Credentials :- 
+ Username – admin
+ Password - admin123
   
-![image](https://user-images.githubusercontent.com/36665975/66570609-8bcd9b80-eb8b-11e9-8099-9f285aa7fe0f.png)
+![image](https://user-images.githubusercontent.com/49271775/120901973-5f696b80-c65b-11eb-976d-735a7744acf4.png)
+
 
 Once the doctor clicking the ‘Login’ button, they will be redirected to their own dashboard which is shown in Fig 1.11
 
@@ -145,25 +147,30 @@ This module allows admin to perform five major operations:
   &nbsp; &nbsp; &nbsp; Admin can able to view all the patients registered. This includes the patients’ First Name, Last Name, Email ID, Contact Number and Password. (See Fig 1.15).As like in doctor module, admin can also search for a patient by their contact number in the search box.
   
   ![image](https://user-images.githubusercontent.com/36665975/66571179-83c22b80-eb8c-11e9-8819-008cdd2b0c2e.png)
-  
+  ![image](https://user-images.githubusercontent.com/49271775/120902091-01895380-c65c-11eb-9f3b-cdc21863834e.png)
 **2. View the list of all doctors registered:**
 
   &nbsp; &nbsp; &nbsp; Details of the doctors can also be viewed by the admin. This details include the Name of the doctor, Password, Email and Consultancy fees, shown in Fig 1.16. Searching for a doctor can be done by using the doctor’s Email ID in the search box.
 
-![image](https://user-images.githubusercontent.com/36665975/66571329-a5bbae00-eb8c-11e9-89be-ce1a9c73e01b.png)
+![image](https://user-images.githubusercontent.com/49271775/120902075-e585b200-c65b-11eb-866f-d4fb1c230769.png)
+
 
 **3. View the Appointment lists:**
 
   &nbsp; &nbsp; &nbsp; Admin can also able to see the entire details of the appointment that shows the appointment details of the patients with their respective doctors. This includes the First Name, Last Name, Email and Contact Number of patients, doctor’s name, Appointment Date, Time and the Consultancy Fees. (See Fig 1.17). 
   
-  ![image](https://user-images.githubusercontent.com/36665975/66571377-c3891300-eb8c-11e9-92d2-6755204564c7.png)
+
+  ![image](https://user-images.githubusercontent.com/49271775/120902149-6775db00-c65c-11eb-81c8-48fe743e0bd3.png)
   
+
+
 **4. Add Doctor:**
 
   &nbsp; &nbsp; &nbsp; Admin alone can add a new doctor since anyone can register as a doctor if we put this section on the home page. This form asks Doctor’s Name, Email ID, Password and his/her Consultancy Fees.(See Fig 1.18)
   
-  ![image](https://user-images.githubusercontent.com/36665975/66571687-55911b80-eb8d-11e9-9859-54e15d4ad8a0.png)
-  
+
+  ![image](https://user-images.githubusercontent.com/49271775/120902178-765c8d80-c65c-11eb-81de-a95e3bc5e9d0.png)
+
   After adding a new doctor, if we check the doctor’s list, we will see the details of new doctor is added to the list as shown in the Fig 1.19
   
   ![image](https://user-images.githubusercontent.com/36665975/66571496-03e89100-eb8d-11e9-954e-7e3704bd0ca3.png)
@@ -172,7 +179,7 @@ This module allows admin to perform five major operations:
 
   &nbsp; &nbsp; &nbsp; Admin is allowed to view the feedback/Query that has been given by the user in the ‘Contact’ page (Refer Fig 1.3). This includes User’s Name, Email Id, Contact Number and the message(Feedback/ Query) as shown in the Fig 1.20.
   
-  ![image](https://user-images.githubusercontent.com/36665975/66571573-27134080-eb8d-11e9-8c1f-191a9f491872.png)
+  ![image](https://user-images.githubusercontent.com/49271775/120902212-9e4bf100-c65c-11eb-9ac2-980627942698.png)
   
   &nbsp; &nbsp; &nbsp; Taking everything into consideration, admin can able to view the details of patients and doctors, appointment details, Feedback by the user and can add a new doctor. Once everything is done, the admin can logout from his account.
 
@@ -190,8 +197,8 @@ This module allows admin to perform five major operations:
   
   Now if we login to the doctor Ganesh's account and view his appointment details, then it will look like this:
   
-  ![image](https://user-images.githubusercontent.com/36665975/75170076-9316cf80-574f-11ea-84ff-6a5976ce8179.png)
-  
+  ![image](https://user-images.githubusercontent.com/49271775/120902333-6ee9b400-c65d-11eb-8d01-4b3a49c7990f.png)
+
   Similarly doctors can also delete their appointments and patients can view their updated appointment details.
   
 ### 2. Remove Doctors by Admin
@@ -199,8 +206,23 @@ This module allows admin to perform five major operations:
 &nbsp; &nbsp; &nbsp; Admin can also delete the doctors from the system. This let admin to have more control over the system.
 
 ![image](https://user-images.githubusercontent.com/36665975/75170650-6d3dfa80-5750-11ea-8f05-455c7d704217.png)
-  
 
+### 3. Doctors Dashboard 
+![image](https://user-images.githubusercontent.com/49271775/120902361-9d678f00-c65d-11eb-91ae-03c17869ea20.png)
+
+### 4. Prescreption List
+![image](https://user-images.githubusercontent.com/49271775/120902385-ba03c700-c65d-11eb-85d6-065d98c4dc92.png)
+
+### 5. Prescreption Page
+![image](https://user-images.githubusercontent.com/49271775/120902403-d43da500-c65d-11eb-984e-96d50be3afdf.png)
+
+
+Use the Following Data Retrieve Data :-
+
+![image](https://user-images.githubusercontent.com/49271775/120901945-3a74f880-c65b-11eb-94e6-1524198b72cd.png)
+
+### Logout Pages
+![image](https://user-images.githubusercontent.com/49271775/120902415-ec152900-c65d-11eb-9974-e406f36a6c45.png)
 
 
 
